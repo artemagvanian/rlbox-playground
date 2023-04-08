@@ -1,0 +1,3 @@
+[submodule "rlbox_wasm2c_sandbox"]
+	path = rlbox_wasm2c_sandbox
+	url = git@github.com:PLSysSec/rlbox_wasm2c_sandbox.git
