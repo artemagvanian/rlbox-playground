@@ -20,7 +20,6 @@ WASM_CFLAGS=-Wl,--export-all -Wl,--no-entry -Wl,--growable-table -Wl,--stack-fir
 all: mylib.wasm mylib.wasm.c myapp
 
 wasm2c_sandbox:
-	mkdir rlbox_wasm2c_sandbox/build
 	cmake -B rlbox_wasm2c_sandbox/build -S rlbox_wasm2c_sandbox
 	cd rlbox_wasm2c_sandbox/build && make
 
